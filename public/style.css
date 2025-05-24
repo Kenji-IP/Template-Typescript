@@ -1,0 +1,16 @@
+*, *::after, *::before {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: black;
+}
+
+#test {
+   color: white;
+   display: flex;
+   justify-content: center;
+   font-size: xx-large;
+}

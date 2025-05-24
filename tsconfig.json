@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": ["es2024", "DOM"],
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "target": "es2024",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    
+    // "baseUrl": "./",
+    // "paths": {
+    //   "@types/*": ["types/*"]
+    // },
+  },
+  // "include": ["src", "public", "types/markdown.ts"],
+  "include": ["src", "public"],
+  "exclude": ["node_modules"],
+}
